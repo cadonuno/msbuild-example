@@ -17,7 +17,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      $env:Path += ";C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin"
+      $env:Path += ";C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
       Set-ExecutionPolicy AllSigned -Scope Process -Force
       $ProgressPreference = "silentlyContinue"; iex ((New-Object System.Net.WebClient).DownloadString('https://tools.veracode.com/veracode-cli/install.ps1'))
       
