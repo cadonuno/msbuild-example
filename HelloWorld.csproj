@@ -1,6 +1,6 @@
 <Project ToolsVersion="14.0" DefaultTargets="Build"> 
   <PropertyGroup>
-    <TargetFrameworkVersionv4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="*.cs" />
